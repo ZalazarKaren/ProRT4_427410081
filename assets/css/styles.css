@@ -1,0 +1,224 @@
+body{  
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #FFFFFF;
+  color: black;
+}
+
+
+footer{
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  background: #3EF8D6 ;  /* fallback for old browsers */
+  border-color: black;
+  
+}
+
+.contenedor{
+  margin: auto;
+
+}
+.navbar-nav{
+  --bs-nav-link-hover-color: rgb(32, 74, 99);
+}
+
+.img{
+	margin-left: 100px;
+	height: 100%;
+	width:30%;
+}
+
+
+.titulo {
+    font-family: Candara, sans-serif; /* Se aplica la fuente Candara */
+    text-align: center; /* Alineación del texto al centro */
+    text-transform: uppercase; /* Texto en mayúsculas */
+    transition: color 0.3s ease; /* Transición suave para el cambio de color */
+}
+
+h1{
+  font-size: 350%;
+  text-align: center ;
+
+}
+
+h3{
+
+
+    font-size: 350%;
+    text-align: center ;
+
+}
+.card{
+  background: #D3CCE3;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+	 color: #0d1011;
+   text-align: justify;
+   margin-bottom: auto;
+}
+.card-body{
+  background: #D3CCE3;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #E9E4F0, #D3CCE3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  display: block;
+  padding: 0.5rem 0.5rem;
+  width: 200px;
+  margin: 0 auto;
+  text-align: justify;
+}
+
+.ex1 {
+  margin: auto;
+  width: 66%;
+  text-align: justify;
+
+}
+.p{ 
+
+ text-align: justify;
+ font-style: monospace;
+}
+form {
+
+background-color: #e9e4f0;
+
+border-radius: 5px;
+margin-bottom: 10%;
+}
+.container-form {
+  background-color: #ffffff; /* Fondo blanco para el contenedor principal */
+  color: #212529; /* Color de texto oscuro */
+}
+
+.custom-input {
+  background-color: #f2f2f2; /* Color de fondo para los campos de formulario */
+  border: 1px solid #ced4da; /* Borde para los campos de formulario */
+}
+img{
+ width: 100%
+
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.row{
+
+  display: flex;
+  padding: 5px;
+  flex-wrap: wrap;
+}
+.col{
+  align-items: center;
+    max-height:70%;
+  flex: 33%;
+  padding: 5px;
+
+
+}
+.col img{
+  margin-top: 5px;
+}
+
+
+.carousel-item {
+  height: 85vh; /* Ajusta la altura del carrusel a la altura de la pantalla */
+}
+.carousel-item img {
+  object-fit: cover; /* Ajusta las imágenes para que se escalen y recorten si es necesario */
+  height: 100%;
+  width: 100%;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 500x; /* Altura estándar */
+}
+.card img {
+  height: 350px; /* Ajusta la altura de la imagen */
+  object-fit: cover; /* Asegura que la imagen cubra el espacio */
+}
+.card .card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card .btn {
+  margin-top: auto;
+}
+
+.card:hover{
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 4);
+  transform: translateY(-3%);
+
+}
+
+.navbar {
+  height: 50px; /* Altura fija pequeña */
+  padding: 0; /* Sin padding */
+  background-color: #3EF8D6; /* Color de fondo */
+}
+
+.navbar-brand {
+  display: flex;
+  align-items: center;
+  height: 100%; /* Asegura que el contenido se alinee verticalmente */
+}
+
+.navbar-logo {
+  height: 40px; /* Ajusta la altura del logo */
+  width: auto; /* Mantiene la proporción */
+  margin-left: 10px; /* Espaciado izquierdo */
+}
+
+.navbar-nav .nav-item .nav-link {
+  line-height: 50px; /* Alineación vertical del texto */
+}
+
+.search-form {
+  width: 300px; /* Ajusta el ancho del formulario según tus necesidades */
+  align-self: center; /* Centra verticalmente el formulario */
+}
+
+
+/* Estilos para el formulario de contacto */
+.form-container {
+  background-color: #f8f9fa; /* Fondo gris claro */
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 600px;
+  margin: 0 auto; /* Centra el formulario horizontalmente */
+}
+
+.form-container h3 {
+  color: #343a40; /* Color del texto del título */
+}
+
+.form-container input,
+.form-container textarea {
+  background-color: #e9ecef; /* Fondo de los campos de entrada */
+  color: #495057; /* Color del texto */
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+}
+
+.form-container button {
+  background-color: #007bff; /* Color de fondo del botón */
+  color: white; /* Color del texto del botón */
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.form-container button:hover {
+  background-color: #0056b3; /* Color de fondo del botón al pasar el mouse */
+}
